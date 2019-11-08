@@ -90,17 +90,17 @@ class LightboxGallery extends LitElement {
 <h2>this is Image Gallery Test"</h2>
 <lightbox-stage
 _imagesBasepath=${this.imagesBasepath}
-      _images='[ "image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg", "image6.jpg", "image7.jpg", "image8.jpg"]'
-      _textsTitle='[ "image1 Title", "image2 Title", "image3 Title", "", "image5 Title", "image6 Title", "image7 Title", "image8 Title" ]'
-      _textsDescription='[ "image1 description", "image2 description", "image3 description", "", "image5 description", "image6 description", "image7 description", "image8 description" ]'
+      ._images=${this.images}
+      ._textsTitle=${this.textsTitle}
+      ._textsDescription=${this.textsDescription}
       _activeIndex=${this._activeIndex}
       ></lightbox-stage>
 
       <lightbox-thumbnails
       _imagesBasepath=${this.imagesBasepath}
-      _images='[ "image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg", "image6.jpg", "image7.jpg", "image8.jpg"]'
-      _textsTitle='[ "image1 Title", "image2 Title", "image3 Title", "", "image5 Title", "image6 Title", "image7 Title", "image8 Title" ]'
-      _textsDescription='[ "image1 description", "image2 description", "image3 description", "", "image5 description", "image6 description", "image7 description", "image8 description" ]'
+      ._images=${this.images}
+      ._textsTitle=${this.textsTitle}
+      ._textsDescription=${this.textsDescription}
       _activeIndex=${this._activeIndex}
     ></lightbox-thumbnails>
 
